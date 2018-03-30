@@ -25,7 +25,7 @@ companyids = 'woolworths'
 start_date = '2018-03-01T00:00:00.000Z'
 end_date = '2018-03-25T00:00:00.000Z'
         
-search_news(token, topics, companyids, start_date, end_date)
+news = prn.search_news(token, topics, companyids, start_date, end_date)
 
 
 ```
