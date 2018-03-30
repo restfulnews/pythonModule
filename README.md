@@ -4,13 +4,13 @@ Python module to enable python users to use our api
 ## Installation
 Our module can be installed via pip:
 
-'''
+```
 pip install pythonRestfullNews
-'''
+```
 
 ## Usage
 
-'''python
+```python
 import pythonRestfulNews as prn
 
 #create a user:
@@ -28,4 +28,4 @@ end_date = '2018-03-25T00:00:00.000Z'
 search_news(token, topics, companyids, start_date, end_date)
 
 
-'''
+```
