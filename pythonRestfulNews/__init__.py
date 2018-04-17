@@ -1,7 +1,6 @@
 import requests
 import json
 
-
 def create_user(email, password, name='unknown', picture=''):
     url = 'http://api.restfulnews.com/users'
     headers = {'content-type': 'application/json'}    
